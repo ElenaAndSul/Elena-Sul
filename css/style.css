@@ -407,3 +407,26 @@ textarea {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.stat {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  text-shadow: 2px 2px 2px 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.number-information {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: monospace;
+  text-align: center;
+}
+
+.stat p {
+  padding-top: 20px;
+  margin-left: 20px;
+  visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);
+}
